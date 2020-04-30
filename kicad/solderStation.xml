@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/hp/kicad/solderstation/solderStationSimple/solderStation.sch</source>
+    <date>Wed 25 Dec 2019 16:14:56 MSK</date>
+    <tool>Eeschema 5.1.4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>solderStation.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U5">
+      <value>MCP3421A0T-E/CH</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6_Handsoldering</footprint>
+      <libsource lib="solderStation-rescue" part="MCP3421A0T-E_CH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59DDED39</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MOC3041M</value>
+      <footprint>Housings_DIP:DIP-6_W7.62mm_LongPads</footprint>
+      <libsource lib="solderStation-rescue" part="MOC3041M" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59DDEF33</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>bt139-800</value>
+      <footprint>TO_SOT_Packages_THT:TO-220-3_Horizontal_Reversed</footprint>
+      <libsource lib="solderStation-rescue" part="Q_NIGBT_ECG" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59DDEF72</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>360</value>
+      <footprint>Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="solderStation-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59DDEFBF</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>330 (only for sensitive triac) (nc)</value>
+      <footprint>Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="solderStation-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59DDEFF0</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10n 270VAC</value>
+      <footprint>Capacitors_ThroughHole:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4</footprint>
+      <libsource lib="solderStation-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59DDF09F</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>39</value>
+      <footprint>Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="solderStation-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59DDF0E5</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse_Small</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_inline_Type-I</footprint>
+      <libsource lib="solderStation-rescue" part="Fuse_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59DDFC3A</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>БП</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="solderStation-rescue" part="Conn_01x02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59DE0343</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>БП_220</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="solderStation-rescue" part="Conn_01x02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59DE0655</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uf</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59DE270A</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uf</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59DE2767</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59DE2F39</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_NMOS_GSD</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2</footprint>
+      <libsource lib="solderStation-rescue" part="Q_NMOS_GSD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59DE741A</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59DE782C</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59DE8B75</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59EDF1AD</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59EDF49E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>200-220</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59EE052B</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>STM8S003F3P</value>
+      <footprint>Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm</footprint>
+      <libsource lib="solderStation-rescue" part="STM8S003F3P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F821D9</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x04_Counter_Clockwise</value>
+      <footprint>Connectors_Molex:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled</footprint>
+      <libsource lib="solderStation-rescue" part="Conn_02x04_Counter_Clockwise" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4C906C</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x04_Counter_Clockwise</value>
+      <footprint>Connectors_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled</footprint>
+      <libsource lib="solderStation-rescue" part="Conn_02x02_Odd_Even" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4C98AF</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>CA56-12EWA</value>
+      <footprint>myowndevice:indicator_3cif</footprint>
+      <libsource lib="solderStation-rescue" part="CA56-12EWA" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4D3F40</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>LM75AD</value>
+      <footprint>Housings_SSOP:SSOP-8_2.95x2.8mm_Pitch0.65mm</footprint>
+      <libsource lib="mylibkicad" part="LM75AD" description="- Remote and Local TEMPERATURE SENSOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4D48DB</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>l78m05</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2_Rectifier</footprint>
+      <libsource lib="solderStation-rescue" part="L7805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4D60E1</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D (n.c.) Нужен только в случае мотора! (для кулера не нужен!)</value>
+      <footprint>Diodes_SMD:D_MiniMELF</footprint>
+      <libsource lib="solderStation-rescue" part="D_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A55F859</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A85D6BB</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_Small</value>
+      <footprint>Diodes_SMD:D_MiniMELF</footprint>
+      <libsource lib="solderStation-rescue" part="D_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A861126</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>5k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A86486F</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>5k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A864B71</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A865E76</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1uf</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8662F3</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A866672</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>300</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A867277</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>300</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A867404</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>300</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8674E6</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A868B35</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>prg</value>
+      <footprint>myowndevice:wirepad_mini</footprint>
+      <libsource lib="solderStation-rescue" part="Conn_01x01" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A869802</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_PUSH_6mm</footprint>
+      <libsource lib="solderStation-rescue" part="SW_Push" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A86A6F9</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_PUSH_6mm</footprint>
+      <libsource lib="solderStation-rescue" part="SW_Push" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A86A8AB</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_PUSH_6mm</footprint>
+      <libsource lib="solderStation-rescue" part="SW_Push" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A86A93B</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_PUSH_6mm</footprint>
+      <libsource lib="solderStation-rescue" part="SW_Push" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A86AA1A</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A86C1CC</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A86CCF3</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A86CD9D</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>prg</value>
+      <footprint>myowndevice:wirepadme</footprint>
+      <libsource lib="solderStation-rescue" part="Conn_01x01" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A873DDB</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>prg</value>
+      <footprint>myowndevice:wirepadme</footprint>
+      <libsource lib="solderStation-rescue" part="Conn_01x01" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A874206</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>2N7002</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="solderStation-rescue" part="2N7002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8889F1</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="solderStation-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8AC347</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="mylibkicad" part="LM75AD">
+      <description>- Remote and Local TEMPERATURE SENSOR</description>
+      <docs>http://www.ti.com.cn/cn/lit/ds/symlink/tmp411.pdf</docs>
+      <footprints>
+        <fp>SO</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM75AD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="openCol"/>
+        <pin num="2" name="SCL" type="openCol"/>
+        <pin num="3" name="~ALERT" type="openCol"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="A2" type="passive"/>
+        <pin num="6" name="A1" type="passive"/>
+        <pin num="7" name="A0" type="passive"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="solderStation-rescue" part="2N7002">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solderStation-rescue" part="CA56-12EWA">
+      <footprints>
+        <fp>*CA56*12EWA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CA56-12EWA</field>
+        <field name="Footprint">Displays_7-Segment:CA56-12EWA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="e" type="input"/>
+        <pin num="2" name="d" type="input"/>
+        <pin num="3" name="DPX" type="input"/>
+        <pin num="4" name="c" type="input"/>
+        <pin num="5" name="g" type="input"/>
+        <pin num="6" name="CA4" type="input"/>
+        <pin num="7" name="b" type="input"/>
+        <pin num="8" name="CA3" type="input"/>
+        <pin num="9" name="CA2" type="input"/>
+        <pin num="10" name="f" type="input"/>
+        <pin num="11" name="a" type="input"/>
+        <pin num="12" name="CA1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="solderStation-rescue" part="C_Small">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solderStation-rescue" part="Conn_01x01">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solderStation-rescue" part="Conn_01x02">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solderStation-rescue" part="Conn_02x02_Odd_Even">
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x02_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solderStation-rescue" part="Conn_02x04_Counter_Clockwise">
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Counter_Clockwise</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solderStation-rescue" part="D_Small">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solderStation-rescue" part="Fuse_Small">
+      <footprints>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solderStation-rescue" part="L7805">
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="solderStation-rescue" part="MCP3421A0T-E_CH">
+      <footprints>
+        <fp>SOT-23*</fp>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP3421A0T-E_CH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin+" type="passive"/>
+        <pin num="2" name="Vss" type="power_in"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="BiDi"/>
+        <pin num="5" name="Vdd" type="power_in"/>
+        <pin num="6" name="Vin-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solderStation-rescue" part="MOC3041M">
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>DIP*W9.53mm*SMD*</fp>
+        <fp>DIP*W10.16mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MOC3041M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solderStation-rescue" part="Q_NIGBT_ECG">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NIGBT_ECG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="solderStation-rescue" part="Q_NMOS_GSD">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solderStation-rescue" part="R_Small">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solderStation-rescue" part="STM8S003F3P">
+      <footprints>
+        <fp>TSSOP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM8S003F3P</field>
+        <field name="Footprint">Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD4/TIM2_CH1/BEEP/UART1_CK" type="BiDi"/>
+        <pin num="2" name="PD5/AIN5/UART1_TX" type="BiDi"/>
+        <pin num="3" name="PD6/AIN6/UART1_RX" type="BiDi"/>
+        <pin num="4" name="NRST" type="input"/>
+        <pin num="5" name="OSCIN/PA1" type="BiDi"/>
+        <pin num="6" name="OSCOUT/PA2" type="BiDi"/>
+        <pin num="7" name="VSS" type="power_out"/>
+        <pin num="8" name="Vcap" type="passive"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="[SPI_NSS]TIM2_CH3/PA3" type="BiDi"/>
+        <pin num="11" name="[TIM1_BKIN]I2C_SDA/PB5" type="BiDi"/>
+        <pin num="12" name="[ADC_ETR]I2C_SCL/PB4" type="BiDi"/>
+        <pin num="13" name="[TIM1_CH1N]TIM1_CH3/PC3" type="BiDi"/>
+        <pin num="14" name="[TIM1_CH2N]AIN2/TIM1_CH4/PC4" type="BiDi"/>
+        <pin num="15" name="[TIM2_CH1]SPI_SCK/PC5" type="BiDi"/>
+        <pin num="16" name="[TIM1_CH1]SPI_MOSI/PC6" type="BiDi"/>
+        <pin num="17" name="[TIM1_CH2]SPI_MISO/PC7" type="BiDi"/>
+        <pin num="18" name="PD1/SWIM" type="BiDi"/>
+        <pin num="19" name="PD2/AIN3[TIM2_CH3]" type="BiDi"/>
+        <pin num="20" name="PD3/AIN4/TIM2_CH2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="solderStation-rescue" part="SW_Push">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="mylibkicad">
+      <uri>/home/hp/kicadlib/mylibkicad.lib</uri>
+    </library>
+    <library logical="solderStation-rescue">
+      <uri>/home/hp/kicad/solderstation/solderStationSimple/solderStation-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R15-Pad2)">
+      <node ref="U3" pin="12"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="2" name="Net-(R17-Pad2)">
+      <node ref="U3" pin="8"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="3" name="/c3">
+      <node ref="R17" pin="1"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="4" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="5" name="/c2">
+      <node ref="U4" pin="3"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="6" name="/c1">
+      <node ref="R15" pin="1"/>
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="Q2" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="U6" pin="4"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U6" pin="5"/>
+      <node ref="J2" pin="3"/>
+      <node ref="C5" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U4" pin="7"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U6" pin="7"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="8" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="9" name="/f">
+      <node ref="U4" pin="5"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="10" name="Net-(R11-Pad2)">
+      <node ref="U4" pin="4"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="11" name="/a">
+      <node ref="U3" pin="11"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="12" name="/b">
+      <node ref="U3" pin="7"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="13" name="/c">
+      <node ref="U4" pin="19"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="14" name="/d">
+      <node ref="U3" pin="2"/>
+      <node ref="U4" pin="17"/>
+    </net>
+    <net code="15" name="/e">
+      <node ref="U4" pin="16"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="16" name="/g">
+      <node ref="U3" pin="5"/>
+      <node ref="U4" pin="20"/>
+    </net>
+    <net code="17" name="/dp">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="18" name="/220_l">
+      <node ref="J2" pin="1"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="19" name="Net-(D1-Pad2)">
+      <node ref="J5" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="20" name="+12V">
+      <node ref="D2" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J2" pin="4"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="21" name="VDD">
+      <node ref="U4" pin="9"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U6" pin="8"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U5" pin="5"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="22" name="/mark1">
+      <node ref="J1" pin="3"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="23" name="/mark">
+      <node ref="J3" pin="1"/>
+      <node ref="U4" pin="18"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="24" name="/mark2">
+      <node ref="R9" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="25" name="/gate">
+      <node ref="Q3" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="26" name="Net-(U6-Pad3)">
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="27" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="SW4" pin="1"/>
+    </net>
+    <net code="28" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="29" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="30" name="Net-(R12-Pad1)">
+      <node ref="SW2" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="31" name="/fan2">
+      <node ref="J1" pin="8"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="32" name="/220v_L">
+      <node ref="J6" pin="2"/>
+      <node ref="F1" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="33" name="/scl">
+      <node ref="U5" pin="3"/>
+      <node ref="U6" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="34" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="35" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="36" name="/ten2">
+      <node ref="R2" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="37" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="38" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="39" name="/220_n">
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="40" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="41" name="/t1">
+      <node ref="U5" pin="1"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="42" name="/t2">
+      <node ref="J1" pin="6"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="43" name="/sda">
+      <node ref="U5" pin="4"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U6" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="44" name="Net-(R1-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="45" name="/kn">
+      <node ref="U4" pin="14"/>
+      <node ref="R14" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="46" name="/pwm">
+      <node ref="U4" pin="13"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="47" name="/rele">
+      <node ref="U4" pin="10"/>
+      <node ref="R1" pin="2"/>
+    </net>
+  </nets>
+</export>
